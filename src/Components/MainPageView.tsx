@@ -1,7 +1,6 @@
 import { ReactElement, useEffect, useState } from 'react'
 import { IApod } from '../Interface/IApod';
 import MainPageController from './MainPageController';
-import DatePicker from 'react-datepicker'
 interface IMainPageView {
 
 }
