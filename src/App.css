@@ -2,11 +2,12 @@
   text-align: auto;
   background-color: #191414;
   min-height: 100vh;
+  min-width:100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(2px + 2vmin);
+  font-size: calc(3px + 2vmin);
   color: white;
   flex-wrap: wrap;
 }
