@@ -7,7 +7,7 @@ import {
 import logo from './logo.svg';
 import './App.css';
 import MainPageView from './Components/MainPageView';
-
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
       <React.Fragment>
