@@ -9,11 +9,10 @@ interface IViewCard {
 }
 
 const ViewCard = (props: IViewCard): ReactElement => {
-    const [showPrompt,setShowPrompt] = useState<boolean>(false);
     const [isShown,setIsShown] = useState<boolean>(false);
     const [like, setLike] = useState<boolean>(false);
     return(
-        <div className= "card view-card" onMouseEnter={()=>setShowPrompt(true)} onMouseLeave={()=>{setShowPrompt(false)}}>
+        <div className= "card view-card">
             <div className="card-block">
                 
                 <div className="row no-gutters">
@@ -46,7 +45,7 @@ const ViewCard = (props: IViewCard): ReactElement => {
                         }
                     </div>
                     </div>
-                    {showPrompt && !isShown &&
+                    {!isShown &&
                         <p className="text-muted" style={{cursor:"pointer"}} onClick={()=>{setIsShown(true)}}  >Click to see more</p>
                     }
 
