@@ -20,7 +20,6 @@ const DatePickerComponent = (props: IDatePicker): React.ReactElement => {
                             <Form.Control type="date"  value={props.fromDate} 
                             onChange={(e:any)=>{
                                 props.setFromDate(e.target.value); 
-                                props.setToDate(e.target.value);
                                 }} />
                         </Form.Group>
                     </div>
