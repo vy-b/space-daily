@@ -1,4 +1,4 @@
-# Submission for Shopify
+
 https://space-daily.herokuapp.com/
 
 ## Extra Features
